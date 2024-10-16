@@ -1,0 +1,20 @@
+Library Management System
+Objective: Create a system to manage a library’s books, members, and staff, which should allow for adding, removing, and updating books. It should also manage members and issue books.
+
+Questions/Tasks:
+
+OOP Concepts:
+Design classes for Book, Member, Staff, and Library.
+Implement inheritance where Member and Staff classes inherit from a common Person class.
+Use encapsulation for member variables, and implement constructors, getters, and setters.
+Collections Framework:
+Use ArrayList to store Book objects and HashMap to map Member objects with issued books.
+Store all overdue books in a HashSet.
+Stream API:
+Find and display all books that have been issued for over a month.
+Filter and display all books by a specific author using Stream.
+Serialization:
+Serialize and save the library data to a file before the program closes, and deserialize it when the program starts.
+Multithreading:
+Create a thread that runs daily to check for overdue books and notifies members by printing a message.
+Use multithreading to allow multiple staff members to update book information simultaneously.
